@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/McZen-Technologies/TUI/issues"
   },
-  "homepage": "https://github.com/McZen-Technologies/TUI#readme"
+  "homepage": "https://github.com/McZen-Technologies/TUI#readme",
+  "publishConfig": {
+	"@McZen-Technologies:registry": "https://npm.pkg.github.com"
+  }
 }
