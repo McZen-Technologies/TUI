@@ -1,6 +1,6 @@
 {
   "name": "@mczen-technologies/tui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TUI (Tunisia’s Unique Identifier) format validator",
   "main": "TUI.js",
   "scripts": {
