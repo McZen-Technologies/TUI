@@ -13,7 +13,7 @@ class TUI {
 	isValid() {
 		// TODO: convert regex and alphabet constants to static attributes
 		const regex = new RegExp('[0-9]{7}[A-Z]')
-		const alphabet = "ABCDEFGHJKLMNPQRSTVWXYZ"
+		const alphabet = 'ABCDEFGHJKLMNPQRSTVWXYZ'
 
 		if (!regex.test(this.value)) return false
 
