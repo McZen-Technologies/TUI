@@ -14,7 +14,7 @@
   },
   "homepage": "https://github.com/McZen-Technologies/TUI#readme",
   "publishConfig": {
-    "@mczen-technologies:registry": "https://npm.pkg.github.com"
+    "@mczentechnologies:registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "test": "exit 0"
