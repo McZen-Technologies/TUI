@@ -7,8 +7,8 @@ The unique identifier serves as the taxpayer's identifier to the tax authorities
 ## Usage in the browser
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@mczentechnologies/tui@1.0.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/@mczentechnologies/tui"></script>
 <script>
-  new TUI("0789012H").isValid(); // true
+	new TUI("0789012H").isValid(); // true
 </script>
 ```
