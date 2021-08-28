@@ -1,5 +1,5 @@
 {
-  "name": "@mczentechnologies/tui",
+  "name": "@mczen-technologies/tui",
   "version": "1.1.0",
   "description": "TUI (Tunisia’s Unique Identifier) format validator",
   "main": "index.js",
@@ -14,7 +14,7 @@
   },
   "homepage": "https://github.com/McZen-Technologies/TUI#readme",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "@mczen-technologies:registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "test": "exit 0"
