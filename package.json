@@ -2,10 +2,7 @@
   "name": "@mczen-technologies/tui",
   "version": "1.0.0",
   "description": "TUI (Tunisia’s Unique Identifier) format validator",
-  "main": "TUI.js",
-  "scripts": {
-    "test": "exit 0"
-  },
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/McZen-Technologies/TUI.git"
