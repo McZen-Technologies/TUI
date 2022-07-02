@@ -6,21 +6,20 @@
  * @api public
  */
 class TUI {
+	
+	static alphabet = 'ABCDEFGHJKLMNPQRSTVWXYZ'
+	
 	constructor(value) {
 		this.value = value
 	}
 
 	isValid() {
-		// TODO: convert regex and alphabet constants to static attributes
 		const regex = new RegExp('[0-9]{7}[A-Z]')
-		const alphabet = 'ABCDEFGHJKLMNPQRSTVWXYZ'
 
 		if (!regex.test(this.value)) return false
 
-		const matricule = +this.value.slice(0, -1)
-		// FIXME: should simplify this behave.
-		const ctrlKey = Array.from(String(matricule), Number).reduce((prevResult, currentValue, index, array) => prevResult + currentValue * (array.length - index), 0) % 23
+		const ctrlKey = Array.from(this.value.slice(0, -1), Number).reduce((prevResult, currentValue, index, array) => prevResult + currentValue * (array.length - index), 0) % 23
 
-		return this.value.charAt(this.value.length - 1) == [...alphabet][ctrlKey]
+		return this.value.charAt(this.value.length - 1) == [...TUI.alphabet][ctrlKey]
 	}
 }
